@@ -18,19 +18,19 @@ Using this space to document steps I take to set up software to start projects i
     2. Clone github repo to machine
     3. cd to repo location on computer
     4. Create the virtual environment
-        '''
+        ```
         python3 -m venv [environment name without brackets] 
-        '''
+        ```
     5. Activate the virtual environment
-        '''
+        ```
         source [environment name without brackets]/bin/activate
-        '''
+        ```
     6. If we are successful activating the virtual environment than we should see the following in terminal
-        '''
+        ```
         ([environment name without brackets]) $
-        '''
+        ```
     7. When we are finished we can deactivate the virtual environment using the following command in terminal
-        '''
+        ```
         ([environment name without brackets]) $ deactivate
-        '''
+        ```
     8. Terminal should no longer display ([environment name without brackets]) in front of terminal prompt.  All packages in the virtual environment will no longer be available
