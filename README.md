@@ -31,6 +31,6 @@ source [environment name without brackets]/bin/activate
 ```
 7. When we are finished we can deactivate the virtual environment using the following command in terminal
 ```
-([environment name without brackets]) $ deactivate
+([environment name without brackets]) $ conda deactivate
 ```
 8. Terminal should no longer display ([environment name without brackets]) in front of terminal prompt.  All packages in the virtual environment will no longer be available
