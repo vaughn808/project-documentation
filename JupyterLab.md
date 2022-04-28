@@ -18,6 +18,11 @@ pip3 install numpy
 pip3 install pandas
 ```
 
+#### Once done installing software - Create requirements.txt file
+```
+pip freeze > requirements.txt
+```
+
 #### Starting jupyter lab
 ```
 jupyter lab
